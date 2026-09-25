@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="18dp"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+
+<TextView android:id="@+id/title" android:text="BR TEST • ADMIN EDITION"
+ android:textSize="24sp" android:textStyle="bold"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/name" android:hint="Ник"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/password" android:hint="Пароль"
+ android:inputType="textPassword"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/host" android:text="10.0.2.2"
+ android:hint="IP сервера"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Button android:id="@+id/connect" android:text="ВОЙТИ"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<TextView android:id="@+id/status" android:text="Ожидание подключения"
+ android:textSize="16sp" android:paddingTop="14dp"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Button android:id="@+id/admin" android:text="АДМИН-ПАНЕЛЬ"
+ android:visibility="gone"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/command" android:hint="Админ-команда"
+ android:visibility="gone"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Button android:id="@+id/send" android:text="ВЫПОЛНИТЬ"
+ android:visibility="gone"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+</LinearLayout>
